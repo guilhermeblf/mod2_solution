@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+h1{
+	text-align: center;
+}
+.row{
+	width: 100%;
+}
+.box{
+	border: 1px solid #000;
+	background: #c3c3c3;
+	margin: 10px;
+}
+.tagMenu {
+	position: relative;
+	border: 1px solid #000;
+	padding: 5px;
+	width: 100px;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+}
+.chicken{
+	background: #ffb2ee;
+}
+.beef{
+    background: #a5182c;
+    color: #fff;
+}
+.sushi{
+	background: #feffb2;
+}
+.content{
+	padding: 10px;
+	clear: both;
+}
